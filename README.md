@@ -1,5 +1,6 @@
 ![lab](./_media/chrome-extension-2.png)
 # Chrome extension examples repo
+https://developer.chrome.com/docs/extensions/
 
 Some chrome extension examples for learning:
 
