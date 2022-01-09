@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X-Curl</title>
+</head>
+<body>
+<p>X-Curl</p>
+<p>
+<li>details: (text) => `${ADS_API_GATEWAY}/v2/ads/${text}`,</li>
+</p>
+<p>
+<li>
+    ads: (text) => `${SEARCH_API_GATEWAY}/v1/ads/${text}`, // ?ids=xxxx&isCertified=true
+</li>
+</p>
+<p>
+<li>
+    count: (text) => `${SEARCH_API_GATEWAY}/v1/search/count/${text}`, // ?cat=13
+</li>
+</p>
+<p>
+<li>
+    pole: () => `${SEARCH_API_GATEWAY}/v1/pole-position-ads`,
+</li>
+</p>
+<p>
+<li>
+    carousel: (text) => `${SEARCH_API_GATEWAY}/v1/search-listing/carousel/${text}`,
+</li>
+</p>
+<p>
+<li>
+    categories: (text) => `${SEARCH_API_GATEWAY}/v1/categories/${text}`,
+</li>
+</p>
+<p>
+<li>
+    categoryTree: (text) => `${SEARCH_API_GATEWAY}/v1/categories/${text}/category-tree`, //
+    v1/categories/13/category-tree
+</li>
+</p>
+<p>
+<li>
+    categoryHierarchy: (text) => `${SEARCH_API_GATEWAY}/v1/categories/${text}/category-hierarchy`,
+</li>
+</p>
+<p>
+<li>
+    locations: (text) => `${SEARCH_API_GATEWAY}/v1/locations/${text}`, // ?regionId=28&provinceId=28
+</li>
+</p>
+<p>
+<li>
+    urlprocessor: (text) => `${SEARCH_API_GATEWAY}/v1/search-urls/${text}`,
+</li>
+</p>
+<p>
+<li>
+    certificate: (text) => `${SEARCH_API_GATEWAY}/v2/search/${text}/certificate`,
+</li>
+</p>
+<p>
+<li>
+    popularSearches: (text) => `${SEARCH_API_GATEWAY}/v1/popular-searches/detail/${text}`,
+</li>
+</p>
+<p>
+<li>
+    seoTags: (text) => `${SEARCH_API_GATEWAY}/v1/seo-tags/${text}`,
+</li>
+</p>
+<p>
+<li>
+    suggestions: (text) => `${SEARCH_API_GATEWAY}/v1/category-suggestions/${text}`, // ?text=volkswagen
+</li>
+</p>
+<p>
+<li>
+    listadoSNB: (text) =>
+    `${MILADS}/api/v2/snb/listado.php?XDEBUG_SESSION_START=PHPSTORM&pag=1&rpag=30&${text}`
+</li>
+</p>
+<p><li>
+    info: this page
+</li></p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "HelloWorld2Extension",
+  "description": "HelloWorld2Extension: Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/rocket.png",
+      "32": "/images/rocket.png",
+      "48": "/images/rocket.png",
+      "128": "/images/rocket.png"
+    }
+  },
+  "icons": {
+    "16": "/images/rocket.png",
+    "32": "/images/rocket.png",
+    "48": "/images/rocket.png",
+    "128": "/images/rocket.png"
+  }
+}

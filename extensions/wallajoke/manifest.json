@@ -1,0 +1,27 @@
+{
+  "name": "wallajoke",
+  "description": "wallajoke: setup the background color and change the logo over MA page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/rocket.png",
+      "32": "/images/rocket.png",
+      "48": "/images/rocket.png",
+      "128": "/images/rocket.png"
+    }
+  },
+  "icons": {
+    "16": "/images/rocket.png",
+    "32": "/images/rocket.png",
+    "48": "/images/rocket.png",
+    "128": "/images/rocket.png"
+  }
+}

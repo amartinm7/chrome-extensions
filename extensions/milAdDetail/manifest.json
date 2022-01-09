@@ -1,0 +1,38 @@
+{
+  "name": "MilAdDetail",
+  "description": "MilAdDetail, click on the ad id to see the detail on another tab!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.milanuncios.com/*"],
+      "js": ["content-script.js"]
+    },
+    {
+      "matches": ["https://dev.milanuncios.net/*"],
+      "js": ["content-script.js"]
+    },
+    {
+      "matches": ["https://*.schip.io/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "permissions": ["scripting", "tabs"],
+  "action": {
+    "default_icon": {
+      "16": "/images/logoMA.png",
+      "32": "/images/logoMA.png",
+      "48": "/images/logoMA.png",
+      "128": "/images/logoMA.png"
+    }
+  },
+  "icons": {
+    "16": "/images/logoMA.png",
+    "32": "/images/logoMA.png",
+    "48": "/images/logoMA.png",
+    "128": "/images/logoMA.png"
+  }
+}

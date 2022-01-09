@@ -1,0 +1,26 @@
+{
+  "name": "X-Curl",
+  "description": "X-Curl: write down on the finder bar 'xcurl' and then 'tab'. After that write down the ?queryparams",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": {
+    "keyword": "xcurl"
+  },
+  "action": {
+    "default_icon": {
+      "16": "/images/logoMA.png",
+      "32": "/images/logoMA.png",
+      "48": "/images/logoMA.png",
+      "128": "/images/logoMA.png"
+    }
+  },
+  "icons": {
+    "16": "/images/logoMA.png",
+    "32": "/images/logoMA.png",
+    "48": "/images/logoMA.png",
+    "128": "/images/logoMA.png"
+  }
+}
