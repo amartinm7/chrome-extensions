@@ -12,7 +12,7 @@
       "js": ["content-script.js"]
     },
     {
-      "matches": ["https://dev.milanuncios.net/*"],
+      "matches": ["https://pre-1.milanuncios.net/*"],
       "js": ["content-script.js"]
     },
     {
