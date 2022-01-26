@@ -14,6 +14,10 @@ const getEnvironment = function (){
 
 document.addEventListener('click', async function(event) {
   if (event.target.className === 'ma-AdCard-adId') {
+    // event.target.style.backgroundColor = 'yellow'
     chrome.runtime.sendMessage({ message: 'OPEN_TAB', adId: getAdId(event.target.innerText), env: getEnvironment() })
   }
 })
+
+// event.target.style.background
+// https://www.elastic.co/es/blog/how-to-build-great-react-search-experiences-quickly
